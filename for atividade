@@ -1,0 +1,67 @@
+//1]Implemente uma contagem regressiva de 10 até 0 utilizando um laço de repetição.
+ 
+// for (cont=10;cont>=0;cont--){
+// console.log(cont)
+// }
+ 
+//2]Escreva um programa que peça ao usuário para digitar um número e exiba sua tabuada de 1 a 10.
+ 
+// var y = prompt ("Digite um numero")
+ 
+// for (cont=0;cont<=10;cont++){
+// calculo=y*cont
+// console.log(y+"x"+cont+"="+calculo)
+// }
+ 
+//3]Calcule a soma de todos os números de 1 a 100 utilizando um laço de repetição.
+ 
+// var soma=0
+ 
+// for (cont=0;cont<=100;cont++){
+// console.log(soma+=cont)
+// }
+ 
+//4]Imprima todos os números pares de 1 a 20 utilizando um laço de repetição
+ 
+// for(cont=1;cont<=20;cont++){
+// if (cont%2==0){
+// console.log(cont)
+// }
+// }
+ 
+//5]Escreva um programa que peça ao usuário para digitar um número e exiba a sequência de Fibonacci até esse número.
+ 
+// var penu=0
+// var ut=1
+// var soma=0
+// var num=prompt("digite um numero")
+ 
+// for(cont=1;cont<=num;cont++){
+// console.log(soma)
+// penu=ut
+// ult=soma
+// soma=penl+ut
+// }
+ 
+//6]Escreva um programa que peça ao usuário para digitar um número e exiba a soma de todos os números ímpares até esse número.
+ 
+// var num=prompt("Digite um numero")
+// var soma=0
+ 
+// for(cont=1;cont<=num;cont++){
+// if (cont%2!=0){
+// soma+=cont
+// }
+// }console.log("A soma de todos os números ímpares até esse número é:" + soma)
+ 
+//7]Crie um programa que peça ao usuário para digitar uma palavra e exiba quantas vogais há nessa palavra.
+ 
+// var pala= prompt("Digite uma palavra")
+// var vogais= "aeiouáéíóúãõâêîôûàèìòùäëïöüAEIOUÁÉÍÓÚÃÕÂÊÎÔÛÀÈÌÒÙÄËÏÖÜ"
+// var contador= 0
+ 
+// for (var i = 0; i < pala.length; i++) {
+// if (vogais.includes(pala[i])) {
+// contador++;
+// }
+// }console.log("Número de vogais na palavra: " + contador);
