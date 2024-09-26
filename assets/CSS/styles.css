@@ -1,3 +1,24 @@
 body{
-    background: tomato;
+    background: black;
+    color: white;
 }
+h2{
+    font-size: 40px;
+    background: lightpink;
+    color: green;
+}
+h1{
+    font-size: 50px ;
+    color: red;
+}
+.galeria{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+.capa {
+    height: 100%;
+    width: 100%;
+}
+
